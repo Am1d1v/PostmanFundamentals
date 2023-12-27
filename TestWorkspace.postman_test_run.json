@@ -1,0 +1,88 @@
+{
+	"id": "ee935d83-2d7f-4838-88ac-7233b9069ecf",
+	"name": "TestWorkspace",
+	"timestamp": "2023-12-27T12:12:26.689Z",
+	"collection_id": "31949677-4cae69b8-e377-4fbc-a4a7-cb6beebaff95",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-12-27T12:12:25.850Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c5d2a15c-fae2-4c73-9dc0-08ed63c2f39d",
+			"name": "ReqresGET",
+			"url": "https://reqres.in/api/users?page=1",
+			"time": 36,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				36
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "50f3be03-a74c-4295-a6d2-f91449fe7614",
+			"name": "PetPOSTRequest",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				124
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ffd78033-5b43-44d2-9d57-f4fd2e546225",
+			"name": "ReqresRegistration",
+			"url": "https://reqres.in/api/register",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				157
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 317,
+	"collection": {
+		"requests": [
+			{
+				"id": "c5d2a15c-fae2-4c73-9dc0-08ed63c2f39d",
+				"method": "GET"
+			},
+			{
+				"id": "50f3be03-a74c-4295-a6d2-f91449fe7614",
+				"method": "POST"
+			},
+			{
+				"id": "ffd78033-5b43-44d2-9d57-f4fd2e546225",
+				"method": "POST"
+			}
+		]
+	}
+}
